@@ -1,0 +1,41 @@
+/* Sidebar.css */
+.sidebar {
+    width: 250px;
+    background-color: #343a40; /* Dark background for the sidebar */
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 150px; /* Start the sidebar below the fixed header */
+    left: 0;
+    height: calc(100vh - 150px); /* Full height excluding the header */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.sidebar ul li {
+    margin-bottom: 20px; /* Add space between menu items */
+}
+
+.sidebar ul li a {
+    color: #fff; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2em; /* Increase font size for readability */
+    display: block; /* Make the whole link clickable */
+    padding: 10px; /* Add padding around the link text */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.sidebar ul li a:hover {
+    background-color: #495057; /* Darker background on hover */
+    border-radius: 5px; /* Slight rounding of the corners on hover */
+}
+
+.sidebar ul li a.active-link {
+    font-weight: bold; /* Highlight the active link */
+    background-color: #495057; /* Different background for active state */
+    border-radius: 5px; /* Rounded corners for active link */
+}

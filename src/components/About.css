@@ -1,0 +1,14 @@
+/* About.css */
+.container-xxl {
+    padding: 3rem 0;
+}
+
+.text-primary {
+    color: #007bff; /* Example primary color */
+}
+
+.display-6 {
+    font-size: 2rem; /* Example font size */
+}
+
+/* Add more styles as needed */

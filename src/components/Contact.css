@@ -1,0 +1,41 @@
+.container-xxl {
+    background-color: #f8f9fa; /* Light background for contrast */
+    padding: 40px 0;
+}
+
+h6 {
+    font-size: 1.2rem;
+    color: #007bff; /* Primary color */
+}
+
+.display-6 {
+    font-weight: bold;
+    color: #343a40; /* Dark text color */
+}
+
+.form-control {
+    border-radius: 0.5rem; /* Rounded corners for input fields */
+}
+
+.form-floating {
+    margin-bottom: 1.5rem; /* Spacing between form fields */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border: none; /* Remove border */
+    border-radius: 0.5rem; /* Rounded corners */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.position-relative {
+    border: 2px solid #dee2e6; /* Border for the map iframe */
+    border-radius: 0.5rem; /* Rounded corners for the iframe */
+}
+
+iframe {
+    border-radius: 0.5rem; /* Rounded corners for the iframe */
+}

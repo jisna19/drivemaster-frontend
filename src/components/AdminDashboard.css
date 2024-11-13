@@ -1,0 +1,51 @@
+/* AdminDashboard.css */
+
+/* Ensure the admin dashboard layout */
+.admin-dashboard {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #343a40;
+    padding: 20px;
+    height: 100vh;
+    color: white;
+}
+
+/* Main content area */
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 250px; /* To account for the sidebar width */
+}
+
+/* Place the profile image in the dashboard area, not in the global navbar */
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin-bottom: 20px;
+}
+
+/* Profile image and container */
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.admin-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #343a40;
+}

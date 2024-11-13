@@ -1,0 +1,37 @@
+/* Overall container for the home page */
+.container {
+    max-width: 1200px; /* Set max width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding */
+}
+
+/* Carousel styling */
+.carousel {
+    margin-bottom: 40px; /* Space below carousel */
+    border-radius: 10px; /* Optional: rounded corners */
+    overflow: hidden; /* Hide overflow */
+}
+
+/* Carousel images */
+.carousel-item img {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the area */
+}
+
+/* Carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(1); /* Optional: change controls to white */
+}
+
+/* Indicators for the carousel */
+.carousel-indicators button {
+    background-color: #333; /* Dark color for indicators */
+}
+
+.carousel-indicators .active {
+    background-color: #007bff; /* Color for the active indicator */
+}
+
+/* Add any additional styles below as needed */
